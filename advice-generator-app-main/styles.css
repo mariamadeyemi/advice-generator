@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container{
+    max-width: 22rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.advice-card{
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    position: relative;
+}
+
+.advice-id{
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    color: hsl(150, 100%, 66%);
+}
+
+.advice-body{
+    color: hsl(193, 38%, 86%);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+img.divider{
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.dice{
+    position: absolute;
+    bottom: -9%;
+    left: 42%;
+    z-index: 1;
+    background-color: hsl(150, 100%, 66%);
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.dice:hover{
+    box-shadow: hsl(150, 100%, 66%) 0px 22px 70px 4px;;
+}
+
+.dice > img{
+    width: 60%;
+}
+
+@media only screen and(max-width: 768px) {
+    .advice-container{
+        width: 15rem;
+
+    }
+
+
+}
